@@ -91,7 +91,7 @@
     
 }
 .tabs-wrap {
-    background: white;
+    
     padding-bottom: 20px;
     margin-top: 30px;
 }
@@ -108,12 +108,13 @@
 }
 
 .student-form{
-    background-color: gray;
+    background-color: white;
+    color: black;
     padding: 20px;
     border-radius: 10px;
 }
 .student-form input{
-    background: #929191;
+    background: white;
 }
 
 .btn-wrap{
@@ -132,6 +133,9 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    max-width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .btn-wrap button{
     padding-inline: 40px;
