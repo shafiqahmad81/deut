@@ -6,6 +6,7 @@
 }
 .auth-section{
     height: 100vh;
+    min-height: max-content;
     background-image: url(./assets/images/banner-image.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -21,7 +22,7 @@
     left: 0;
     top: 0;
     pointer-events: none;
-    opacity: 0.6;
+    opacity: 0.8;
     background: #212529;
     z-index: 2;
 }
@@ -31,9 +32,12 @@
     color: white;
 }
 
-.content-wrap{
+.content{
     color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .auth-wrap{
@@ -44,35 +48,88 @@
     color: white;
 }
 .auth-inner{
-    margin-top: 50px;
+    max-width: 200px;
+    width: 100%;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+.page-wrap{
+    margin-top: 150px;
+}
+.page-title{
+    text-align: center;
 }
 .login-wrap{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
+    margin-top: 30px;
 }
-.student-form{
-    background-color: gray;
-    padding: 8px;
+.registration-wrap{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-top: 30px;
 }
-.student-form input{
-    background: #929191;
+.auth-btn{
+    width: 100%;
 }
 .login-title{
     text-align: center;
     background-color: gray;
+    padding: 20px;
 }
 .login-title h3{
     margin: 0;
 }
+.student-form{
+    background-color: gray;
+    padding: 20px;
+}
+.student-form input{
+    background: #929191;
+}
+
 .btn-wrap{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.content h2{
+    color: #f0f3f0;
+    font-weight: 700;
+}
+.logo-wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+@media (max-width:1024px){
+    .login-wrap{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .page-wrap{
+        margin-top: 100px;
+    }
+}
+@media (max-width:768px){
+    .login-wrap{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .registration-wrap{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .page-wrap{
+        margin-top: 50px;
+    }
 }
