@@ -62,6 +62,9 @@
 .page-title{
     text-align: center;
 }
+.login-item{
+    border-radius: 5px;
+}
 .login-wrap{
     width: 100%;
     display: grid;
@@ -107,6 +110,7 @@
 .student-form{
     background-color: gray;
     padding: 20px;
+    border-radius: 10px;
 }
 .student-form input{
     background: #929191;
