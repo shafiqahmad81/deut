@@ -76,23 +76,34 @@
     gap: 32px;
     margin-top: 30px;
 }
+.tabs-wrap ul{
+    background: white;
+    max-width: max-content;
+    padding: 10px;
+    margin: 0 auto;
+}
+.tabs-wrap .tab-pane{
+    max-width: 600px;
+    margin: auto;
+    
+}
+.tabs-wrap {
+    background: white;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.nav-link.active{
+    background-color: green !important;
+}
+.nav-link{
+    color: black;
+}
+
 .auth-btn{
     width: 100%;
 }
-.login-title{
-    text-align: center;
-    background-color: rgb(209, 171, 171);
-    padding: 10px;
-    border-bottom: 1px solid green;
-}
-.login-title.btn{
-    width: 100%;
-    color: white;
-    font-weight: 700;
-}
-.login-title h3{
-    margin: 0;
-}
+
 .student-form{
     background-color: gray;
     padding: 20px;
@@ -120,21 +131,6 @@
 }
 .btn-wrap button{
     padding-inline: 40px;
-}
-
-.login-title.active {
-    background: green;
-    color: white;
-}
-.login-item{
-    background-color: white;
-}
-.login-item .btn{
-    border-radius: 0;
-}
-
-.hidden {
-    display: none;
 }
 
 .footer-section{
