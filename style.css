@@ -123,8 +123,14 @@
 }
 
 .login-title.active {
-    background: #0d6efd;
+    background: green;
     color: white;
+}
+.login-item{
+    background-color: white;
+}
+.login-item .btn{
+    border-radius: 0;
 }
 
 .hidden {
