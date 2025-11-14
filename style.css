@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
 .auth-section{
     height: 100vh;
     background-image: url(./assets/images/banner-image.jpg);
@@ -49,4 +55,24 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
+}
+.student-form{
+    background-color: gray;
+    padding: 8px;
+}
+.student-form input{
+    background: #929191;
+}
+.login-title{
+    text-align: center;
+    background-color: gray;
+}
+.login-title h3{
+    margin: 0;
+}
+.btn-wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
