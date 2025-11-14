@@ -88,14 +88,11 @@
 .tabs-wrap .tab-pane{
     max-width: 600px;
     margin: auto;
-    
 }
 .tabs-wrap {
-    
     padding-bottom: 20px;
     margin-top: 30px;
 }
-
 .nav-link.active{
     background-color: green !important;
 }
@@ -147,9 +144,9 @@
     position: relative;
     z-index: 3;
 }
-.footer-section p{
-    font-size: 18px;
-    text-align: center;
+
+.footer-section .auth-inner{
+    margin: 0 auto;
 }
 
 @media (max-width:1024px){
