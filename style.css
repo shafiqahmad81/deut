@@ -62,7 +62,7 @@ header {
     position: relative;
     z-index: 3;
     color: white;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .content{
@@ -120,7 +120,7 @@ header {
     margin: 0 auto;
 }
 .tabs-wrap .tab-pane{
-    max-width: 600px;
+    max-width: 370px;
     margin: auto;
 }
 .tabs-wrap {
@@ -160,7 +160,7 @@ header {
 }
 .logo-wrap{
     width: 100%;
-    max-width: 100px;
+    max-width: 70px;
     display: inline-block;
 }
 .logo-wrap img{
@@ -173,13 +173,22 @@ header {
 
 .footer-section{
     color: white;
-    margin-top: 50px;
+    margin-top: 32px;
     position: relative;
     z-index: 3;
 }
 
 .footer-section .auth-inner{
     margin: 0 auto;
+}
+.registration-page .content{
+    gap: 0;
+}
+.registration-page .auth-wrapper{
+    margin-top: 32px;
+}
+.registration-page .page-wrap{
+    margin-top: 20px;
 }
 
 @media (max-width:1024px){
@@ -295,6 +304,13 @@ header {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 40px;
+}
+.navbar{
+    padding: 0;
+}
+.nav-wrap .nav-link {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
