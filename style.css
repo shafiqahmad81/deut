@@ -379,16 +379,17 @@ header {
     z-index: 99;
     box-shadow: 0 2px 5px rgb(255, 255, 255);
 }
-.list-group-item img{
-    max-width: 100px;
+.image-wrap img{
+    margin-top: 10px;
+    display: block;
+    max-width: 400px;
     background-color: #bccfbc;
     padding: 10px;
-    border-radius: 100%;
 }
 @media(max-width:768px){
-    .list-group-item img{
-    max-width: 50px;
-}
+    .image-wrap img{
+        max-width: 300px;
+    }
     .card-section .card{
         padding: 10px 10px;
     }
