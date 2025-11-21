@@ -289,6 +289,14 @@ header {
     margin-bottom: 20px;
 }
 
+.title-wrap h2{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
 
 @media(max-width:1020px){
    .logo-wrap{
