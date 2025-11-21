@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>DUET | Home</title>
+    <title>DUET | Service</title>
 </head>
+
 <body>
-    <main class="auth-section">
- <!-- ======== HEADER SECTION START ======== -->
+    <main class="auth-section service-page">
+        <!-- ======== HEADER SECTION START ======== -->
         <header>
             <div class="">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -27,10 +29,10 @@
                             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
                                 style="--bs-scroll-height: 100px;">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    <a class="nav-link " href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="service.html">Service</a>
+                                    <a class="nav-link active" aria-current="page" href="#">Service</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">About us</a>
@@ -47,25 +49,51 @@
         <!-- ======== HEADER SECTION END ======== -->
 
         <!-- ======== AUTH SECTION STRT ========= -->
-         <section class="auth-wrapper">
+        <section class="form-section">
             <div class="container">
-                <div class="content">
-                    <h1>Dhaka University of Engineering & Technology Gazipur <br> Madamcure Hall</h1>
-                    <h4>Hostel Asset Repair and Management Tracker </h4>
-                    <h2>Welcome to our page</h2>
-                </div>
-                <div class="auth-wrap">
-                    <div class="auth-inner">
-                        <a class="btn btn-primary auth-btn" href="login.html" role="button">Login</a>
-                        <a class="btn btn-primary auth-btn" href="registration.html">Registration</a>
-                    </div>
-                </div>
+                <form>
+                    <fieldset>
+                        <legend>Student</legend>
+                        <div class="mb-3">
+                            <label for="disabledSelect" class="form-label">Form type</label>
+                            <select id="disabledSelect" class="form-select">
+                                <option>type 1</option>
+                                <option>type 2</option>
+                                <option>type 3</option>
+                                <option>type 4</option>
+                                <option>type 5</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="NameTextInput" class="form-label">Name</label>
+                            <input type="text" id="NameTextInput" class="form-control" placeholder="Disabled input">
+                        </div>
+                        <div class="mb-3">
+                            <label for="RollTextInput" class="form-label">Roll</label>
+                            <input type="text" id="RollTextInput" class="form-control" placeholder="Disabled input">
+                        </div>
+                        <div class="mb-3">
+                            <label for="RomeTextInput" class="form-label">Rome No</label>
+                            <input type="number" id="RomeTextInput" class="form-control" placeholder="Disabled input">
+                        </div>
+                        <div class="mb-3">
+                            <label for="problem" class="form-label">Problem</label>
+                            <textarea class="form-control" name="" id="problem"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <input type="file" id="fileName" placeholder="Problem">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </fieldset>
+                </form>
             </div>
         </section>
         <!-- ======== AUTH SECTION END ========= -->
-        
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

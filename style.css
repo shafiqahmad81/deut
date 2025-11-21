@@ -4,6 +4,26 @@
     box-sizing: border-box;
 
 }
+
+header {
+    z-index: 99;
+    position: relative;
+}
+
+.main-menu ul li a{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+.main-menu ul li:hover a{
+    color: green;
+}
+.menu-active{
+    color: green !important;
+}
+
 .auth-section{
     height: 100vh;
     min-height: max-content;
@@ -12,7 +32,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-block: 20px;
+    padding-bottom: 20px;
+}
+.me-auto{
+    margin-left: auto;
+}
+.service-page{
+    padding-block: 0;
 }
 .auth-section::after{
     width: 100%;
@@ -38,6 +64,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 20px;
 }
 
 .auth-wrap{
@@ -93,7 +120,7 @@
     padding-bottom: 20px;
     margin-top: 30px;
 }
-.nav-link.active{
+.links.active{
     background-color: green !important;
 }
 .nav-link{
@@ -126,13 +153,12 @@
 }
 .logo-wrap{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
     max-width: 100px;
-    margin: 0 auto;
-    margin-top: 20px;
+    display: inline-block;
+}
+.logo-wrap img{
+    max-width: 100%;
+    width: 100%;
 }
 .btn-wrap button{
     padding-inline: 40px;
@@ -166,5 +192,55 @@
     }
     .footer-section{
         margin-top: 50px;
+    }
+}
+
+
+/* service */
+.service-section,
+.form-section{
+    position: relative;
+    z-index: 99;
+    color: white;
+    padding-block: 40px;
+}
+.service-wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.service-item{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: all;
+}
+.service-item:hover{
+    color: antiquewhite;
+}
+.service-logo{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(191, 204, 191);
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.service-logo img{
+    width: 100%;
+}
+.bg-light {
+    background-color: rgba(248, 249, 250, 1) !important;
+}
+
+
+@media(max-width:768px){
+    .service-wrap{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width:520px){
+    .service-wrap{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
