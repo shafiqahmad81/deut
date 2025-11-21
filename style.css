@@ -91,7 +91,7 @@ header {
     gap: 10px;
 }
 .page-wrap{
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .page-title{
     text-align: center;
@@ -195,7 +195,7 @@ header {
         grid-template-columns: repeat(1, 1fr);
     }
     .page-wrap{
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .footer-section{
         margin-top: 24px;
