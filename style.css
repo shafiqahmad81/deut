@@ -377,7 +377,7 @@ header {
     margin: 0 auto;
     position: relative;
     z-index: 99;
-    
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
 }
 .list-group-item img{
     max-width: 60px;
