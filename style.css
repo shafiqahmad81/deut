@@ -361,3 +361,32 @@ header {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.card-section .card{
+    padding: 10px 20px;
+}
+
+.card-section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-section .card{
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    
+}
+.list-group-item img{
+    max-width: 60px;
+    background-color: #bccfbc;
+    padding: 10px;
+    border-radius: 100%;
+}
+@media(max-width:768px){
+    .card-section .card{
+        padding: 10px 10px;
+    }
+}
