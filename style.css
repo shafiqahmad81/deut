@@ -380,12 +380,15 @@ header {
     box-shadow: 0 2px 5px rgb(255, 255, 255);
 }
 .list-group-item img{
-    max-width: 60px;
+    max-width: 100px;
     background-color: #bccfbc;
     padding: 10px;
     border-radius: 100%;
 }
 @media(max-width:768px){
+    .list-group-item img{
+    max-width: 50px;
+}
     .card-section .card{
         padding: 10px 10px;
     }
