@@ -74,6 +74,7 @@ header {
     margin-top: 20px;
 }
 
+
 .auth-wrap{
     width: 100%;
     display: flex;
@@ -141,7 +142,7 @@ header {
 .student-form{
     background-color: white;
     color: black;
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 .student-form input{
@@ -185,10 +186,37 @@ header {
     gap: 0;
 }
 .registration-page .auth-wrapper{
-    margin-top: 32px;
+    margin-top: 20px;
 }
 .registration-page .page-wrap{
-    margin-top: 20px;
+    margin-top: 10px;
+}
+.registration-page .tabs-wrap{
+    margin-top: 15px;
+}
+.registration-page .tabs-wrap ul {
+    padding: 5px;
+}
+.registration-page .nav-link {
+    padding: .2rem 1rem;
+}
+.registration-page .footer-section {
+    margin-top: 10px;
+}
+.registration-page .form-label {
+    margin-bottom: .2rem;
+}
+.registration-page .content h1{
+    font-size: 36px;
+}
+.registration-page .content h4{
+    font-size: 18px;
+}
+.registration-page .content h2{
+    font-size: 24px;
+}
+.registration-page .content{
+    margin-top: 0px;
 }
 
 @media (max-width:1024px){
