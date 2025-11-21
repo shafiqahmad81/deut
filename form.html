@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <main class="auth-section service-page">
+    <main class="bg-wrap service-page">
         <!-- ======== HEADER SECTION START ======== -->
         <header>
             <div class="">
@@ -53,35 +53,36 @@
             <div class="container">
                 <form>
                     <fieldset>
-                        <legend>Student</legend>
+                        <legend class="title">Student</legend>
                         <div class="mb-3">
-                            <label for="disabledSelect" class="form-label">Form type</label>
+                            <label for="disabledSelect" class="form-label">Service type</label>
                             <select id="disabledSelect" class="form-select">
-                                <option>type 1</option>
-                                <option>type 2</option>
-                                <option>type 3</option>
-                                <option>type 4</option>
-                                <option>type 5</option>
+                                <option>Plambing problem</option>
+                                <option>Electronic problem</option>
+                                <option>Interior problem</option>
+                                <option>Building difeet</option>
+                                <option>Complain box</option>
                             </select>
                         </div>
                         <div class="mb-3">
                             <label for="NameTextInput" class="form-label">Name</label>
-                            <input type="text" id="NameTextInput" class="form-control" placeholder="Disabled input">
+                            <input type="text" id="NameTextInput" class="form-control" placeholder="Name">
                         </div>
                         <div class="mb-3">
                             <label for="RollTextInput" class="form-label">Roll</label>
-                            <input type="text" id="RollTextInput" class="form-control" placeholder="Disabled input">
+                            <input type="text" id="RollTextInput" class="form-control" placeholder="Roll">
                         </div>
                         <div class="mb-3">
                             <label for="RomeTextInput" class="form-label">Rome No</label>
-                            <input type="number" id="RomeTextInput" class="form-control" placeholder="Disabled input">
+                            <input type="number" id="RomeTextInput" class="form-control" placeholder="Rome No">
                         </div>
                         <div class="mb-3">
                             <label for="problem" class="form-label">Problem</label>
-                            <textarea class="form-control" name="" id="problem"></textarea>
+                            <textarea class="form-control" name="" id="problem" placeholder="Problem"></textarea>
                         </div>
-                        <div class="mb-3">
-                            <input type="file" id="fileName" placeholder="Problem">
+                        <div class="mb-3 file-wrap">
+                            <label for="fileName" class="form-label">Image</label>
+                            <input type="file" id="fileName">
                         </div>
                         
                         <button type="submit" class="btn btn-primary">Submit</button>
